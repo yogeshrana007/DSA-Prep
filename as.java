@@ -3,7 +3,8 @@ public class as {
 
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
-        System.out.println();
+        System.out.println("earth".compareTo("mars"));
+
     }
 }
 
