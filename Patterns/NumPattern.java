@@ -17,6 +17,7 @@ public class NumPattern{
         public static void main(String[] args) {
             int n = 17; // Example size (odd number)
             printPattern(n);
+
         }
     }
     
