@@ -1,5 +1,8 @@
 
-class Main {
+// class LinkList{
+
+// }
+public class Main {
 
     public static String makeFancyString(String s) {
         StringBuilder sb = new StringBuilder("");

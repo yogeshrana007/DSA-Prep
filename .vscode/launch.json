@@ -1,0 +1,421 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Arr",
+            "request": "launch",
+            "mainClass": "Arr",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "PracticeQ",
+            "request": "launch",
+            "mainClass": "ArrayList.PracticeQ",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "WaterTrapped",
+            "request": "launch",
+            "mainClass": "ArrayList.WaterTrapped",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Assignment",
+            "request": "launch",
+            "mainClass": "Arrays.Assignment",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Binary",
+            "request": "launch",
+            "mainClass": "Arrays.Binary",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Kadane",
+            "request": "launch",
+            "mainClass": "Arrays.Kadane",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "LargMin",
+            "request": "launch",
+            "mainClass": "Arrays.LargMin",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Linear",
+            "request": "launch",
+            "mainClass": "Arrays.Linear",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Arrays.Reverse",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Stock",
+            "request": "launch",
+            "mainClass": "Arrays.Stock",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Subarrays",
+            "request": "launch",
+            "mainClass": "Arrays.Subarrays",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "TrapWater",
+            "request": "launch",
+            "mainClass": "Arrays.TrapWater",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "maxTrapWater",
+            "request": "launch",
+            "mainClass": "Arrays.maxTrapWater",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "prefix",
+            "request": "launch",
+            "mainClass": "Arrays.prefix",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Grid",
+            "request": "launch",
+            "mainClass": "Backtracking.Grid",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "InArray",
+            "request": "launch",
+            "mainClass": "Backtracking.InArray",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "KnightPrblm",
+            "request": "launch",
+            "mainClass": "Backtracking.KnightPrblm",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "NQueen",
+            "request": "launch",
+            "mainClass": "Backtracking.NQueen",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Permutation",
+            "request": "launch",
+            "mainClass": "Backtracking.Permutation",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "RatMazProblem",
+            "request": "launch",
+            "mainClass": "Backtracking.RatMazProblem",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Subsets",
+            "request": "launch",
+            "mainClass": "Backtracking.Subsets",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Sudoku",
+            "request": "launch",
+            "mainClass": "Backtracking.Sudoku",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "keypadPrblm",
+            "request": "launch",
+            "mainClass": "Backtracking.keypadPrblm",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "BitManu",
+            "request": "launch",
+            "mainClass": "BitManu",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "DivideConquer.MergeSort",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "PracticeQ(1)",
+            "request": "launch",
+            "mainClass": "DivideConquer.PracticeQ",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "DivideConquer.QuickSort",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "SortAndRotatedArray",
+            "request": "launch",
+            "mainClass": "DivideConquer.SortAndRotatedArray",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "OopsAssig",
+            "request": "launch",
+            "mainClass": "OopsAssig",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Butterfly",
+            "request": "launch",
+            "mainClass": "Patterns.Butterfly",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "Patterns.Diamond",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "FLOYD",
+            "request": "launch",
+            "mainClass": "Patterns.FLOYD",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "HolRhom",
+            "request": "launch",
+            "mainClass": "Patterns.HolRhom",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "HollowRec",
+            "request": "launch",
+            "mainClass": "Patterns.HollowRec",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "InvHalfPyra",
+            "request": "launch",
+            "mainClass": "Patterns.InvHalfPyra",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "NumPattern",
+            "request": "launch",
+            "mainClass": "Patterns.NumPattern",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "NumPyra",
+            "request": "launch",
+            "mainClass": "Patterns.NumPyra",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Rhombus",
+            "request": "launch",
+            "mainClass": "Patterns.Rhombus",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "ZerOne",
+            "request": "launch",
+            "mainClass": "Patterns.ZerOne",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Assignment(1)",
+            "request": "launch",
+            "mainClass": "Recursion.Assignment",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "BinaryString",
+            "request": "launch",
+            "mainClass": "Recursion.BinaryString",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "TilingProblem",
+            "request": "launch",
+            "mainClass": "Recursion.TilingProblem",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "Recursion.TowerOfHanoi",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Reverse(1)",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Assignment(2)",
+            "request": "launch",
+            "mainClass": "Sorting.Assignment",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Bubble",
+            "request": "launch",
+            "mainClass": "Sorting.Bubble",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Counting",
+            "request": "launch",
+            "mainClass": "Sorting.Counting",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Insertion",
+            "request": "launch",
+            "mainClass": "Sorting.Insertion",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Selection",
+            "request": "launch",
+            "mainClass": "Sorting.Selection",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Assignment(3)",
+            "request": "launch",
+            "mainClass": "String.Assignment",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "StringCom",
+            "request": "launch",
+            "mainClass": "String.StringCom",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Assignment(4)",
+            "request": "launch",
+            "mainClass": "twoDArray.Assignment",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Diagonal",
+            "request": "launch",
+            "mainClass": "twoDArray.Diagonal",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "SearchInSorted",
+            "request": "launch",
+            "mainClass": "twoDArray.SearchInSorted",
+            "projectName": "java Folder_1388bcf0"
+        },
+        {
+            "type": "java",
+            "name": "Spiral",
+            "request": "launch",
+            "mainClass": "twoDArray.Spiral",
+            "projectName": "java Folder_1388bcf0"
+        }
+    ]
+}
