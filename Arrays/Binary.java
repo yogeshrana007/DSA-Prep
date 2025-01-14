@@ -11,7 +11,7 @@ public class Binary {
         int mid=(start+end)/2;
         if(array[mid]==key){
             System.out.println("Your element is present at index :"+mid);
-             flag++;
+            flag++;
             break;
         }
         else if(array[mid]>key){
