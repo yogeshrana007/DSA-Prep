@@ -1,3 +1,4 @@
+// Question asked which two container should we take so that it can trap maximum water
 package Arrays;
 
 public class maxTrapWater {
@@ -24,7 +25,7 @@ public class maxTrapWater {
 
     public static void main(String[] args) {
         
-        int[] arr = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+        int[] arr = {4,2,0,6,3,2,5};
         System.out.print(waterTrap(arr));
     }
 }
