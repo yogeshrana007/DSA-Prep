@@ -74,16 +74,18 @@ java StackP.PracticeQ.FileName
 | Topic         | Description                                    |
 | ------------- | ---------------------------------------------- |
 | ✅ Patterns    | Star and number pattern problems               |
-| ✅ Stack       | Stack problems with custom LL & built-in Stack |
 | ✅ Recursion   | Base case & recursive case practice            |
 | ✅ Sorting     | Bubble, Selection, Insertion, etc.             |
 | ✅ Searching   | Linear and Binary search                       |
-| 🔜 Trees      | Tree traversal, height, leaf count             |
-| 🔜 BST        | Binary Search Tree problems                    |
-| 🔜 Hashing    | Frequency maps, sets, hash tables              |
-| 🔜 DP         | Tabulation, Memoization, 1D/2D DP              |
-| 🔜 Queues     | Queue, Circular Queue, Deque                   |
-| 🔜 LinkedList | Single/Double LL, reverse, mid-node            |
+| ✅ LinkedList | Single/Double LL, reverse, mid-node            |
+| ✅ Stack       | Stack problems with custom LL & built-in Stack |
+| ✅ Queues     | Queue, Circular Queue, Deque                   |
+| ✅ Trees      | Tree traversal, height, leaf count             |
+| ✅ BST        | Binary Search Tree problems                    |
+| ✅ Hashing    | Frequency maps, sets, hash tables              |
+| ✅ DP         | Tabulation, Memoization, 1D/2D DP              |
+
+
 
 ---
 
