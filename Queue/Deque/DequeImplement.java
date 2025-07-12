@@ -15,10 +15,15 @@ public class DequeImplement {
         deque.addLast(3);
         deque.addLast(4);
 
-        System.out.println(deque);
+        System.out.println("Original deque " + deque);
 
         System.out.println("first " + deque.getFirst());
         System.out.println("last " + deque.getLast());
+
+        System.out.println("removed First " + deque.removeFirst());
+        System.out.println("removed Last " + deque.removeLast());
+
+        System.out.println("After deletion " + deque);
 
     }
 }
