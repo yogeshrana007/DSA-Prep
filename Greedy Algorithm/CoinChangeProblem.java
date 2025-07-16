@@ -2,7 +2,7 @@ package Greedy.Algorithm;
 
 import java.util.ArrayList;
 
-public class CoinProblem {
+public class CoinChangeProblem {
 
     public static void main(String args[]) {
         int[] denominations = {1, 2, 5, 10, 20, 50, 100, 500, 2000}; // first sort if not sorted
