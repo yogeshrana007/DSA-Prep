@@ -51,15 +51,29 @@ public class BinaryTreeOperations {
             return leftCount + rightCount + 1; // height from L + R and 1 for root node
         }
 
-        public int sumOfNodes(Node root) {
+        public int sum(Node root) {
             if (root == null) {
                 return 0;
             }
 
-            int leftSum = sumOfNodes(root.left);
-            int rightSum = sumOfNodes(root.right);
+            int leftSum = sum(root.left);
+            int rightSum = sum(root.right);
 
             return leftSum + rightSum + root.data;
+        }
+
+        public int diameter(Node root) { //O(n^2)
+            if (root == null) {
+                return 0;
+            }
+
+            int leftDiameter = diameter(root.left);
+            int leftHeight = height(root.left);
+
+            int rightDiameter = diameter(root.right);
+            int rightHeight = height(root.right);
+
+            return Math.max(leftHeight + rightHeight + 1, Math.max(leftDiameter, rightDiameter));
         }
     }
 
@@ -70,10 +84,12 @@ public class BinaryTreeOperations {
 
         Node root = tree.buildTree(nodes);
 
-        System.out.println(tree.height(root));
+        System.out.println("Height " + tree.height(root));
 
-        System.out.println(tree.countNodes(root));
+        System.out.println("Nodes " + tree.countNodes(root));
 
-        System.out.println(tree.sumOfNodes(root));
+        System.out.println("sum " + tree.sum(root));
+
+        System.out.println("diameter " + tree.diameter(root));
     }
 }
