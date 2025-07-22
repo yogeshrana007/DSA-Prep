@@ -17,7 +17,7 @@ public class LowestCommonAncestor {
         }
     }
 
-    /* Approach - 1  O(n^2) */
+    /* Approach - 1  TC- O(n)  SC- O(n) */
     // lca -> lowest common ancestor  O(n^2)
     public static Node lca(Node root, int n1, int n2) {
 
@@ -64,7 +64,7 @@ public class LowestCommonAncestor {
     }
 
 
-    /* Approach - 2  O(n) */
+    /* Approach - 2  TC - O(n) SC - O(h) (only due to resursive call) */
     public static Node lca2(Node root, int n1, int n2) {
         if (root == null || root.data == n1 || root.data == n2) {
             return root;
