@@ -2,6 +2,8 @@
  *    1. Find the Lowest common Ancestor (lca)
  *    2. Then find the distance from lca to nodes
  *    3. Then add the distances obtained from lca to both nodes, this gives answer
+ *
+ *     TC- O(n) SC- O(h) { h - height of binary tree}
  */
 package BinaryTreeB;
 
