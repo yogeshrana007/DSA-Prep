@@ -20,7 +20,7 @@ public class JobSequencing {
 
     public static void main(String args[]) {
 
-        int[][] jobInfo = {{'A', 4, 20}, {'B', 2, 10}, {'C', 1, 40}, {'D', 3, 30}};
+        int[][] jobInfo = {{'A', 3, 50}, {'B', 1, 10}, {'C', 1, 40}, {'D', 1, 30}};
 
         ArrayList<Job> jobs = new ArrayList<>();
 
@@ -30,20 +30,36 @@ public class JobSequencing {
 
         Collections.sort(jobs, (a, b) -> b.profit - a.profit);
 
-        ArrayList<Character> sequence = new ArrayList<>();
-        int time = 0;
+        // finding max deadline
+        int maxDeadline = 0;
+        for (int i = 0; i < jobInfo.length; i++) {
+            maxDeadline = Math.max(maxDeadline, jobInfo[i][1]);
+        }
+
+        boolean[] slot = new boolean[maxDeadline + 1];
+
+        char[] sequence = new char[maxDeadline + 1];
+
+        int totalProfit = 0;
 
         for (int i = 0; i < jobs.size(); i++) {
             Job curr = jobs.get(i);
-            if (time < curr.deadline) { // job has to finish before the time that's y we aren't including deadline time
-                time++;
-                sequence.add(curr.id);
+            for (int j = curr.deadline; j >= 1; j--) {
+                if (!slot[j]) {
+                    sequence[j] = curr.id;
+                    slot[j] = true;
+                    totalProfit += curr.profit;
+                    break;
+                }
             }
         }
 
         System.out.print("Sequence of job to achieve maximum profit is : ");
-        for (int i = 0; i < sequence.size(); i++) {
-            System.out.print(sequence.get(i) + " ");
+        for (int i = 1; i < sequence.length; i++) {
+            if (sequence[i] != '\0') {
+                System.out.print(sequence[i] + " ");
+            }
         }
+        System.out.println("\nmaxProfit : " + totalProfit);
     }
 }
