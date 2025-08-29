@@ -2,7 +2,7 @@
 
 
 ```markdown
-# 🧠 Java-Prep
+# Java-Prep
 
 Welcome to my Java Preparation repository!  
 This repo contains clean, topic-wise Java solutions to help understand data structures, algorithms, and core Java concepts — all in one place.
@@ -12,16 +12,16 @@ This repo contains clean, topic-wise Java solutions to help understand data stru
 
 
 Each folder may contain:
-- 🧠 Concept practice
-- 📄 Interview questions
-- ✅ LeetCode/GFG solutions
-- 🧪 Custom logic with main method
+-  Concept practice
+-  Interview questions
+-  LeetCode/GFG solutions
+-  Custom logic with main method
 
 ---
 
-## 🚀 How to Compile and Run Java Files
+##  How to Compile and Run Java Files
 
-### ✅ If there's **no `package` declaration**:
+###  If there's **no `package` declaration**:
 Just go into the folder and run:
 ```bash
 javac FileName.java
@@ -38,9 +38,9 @@ java ValidParanthesis
 
 ---
 
-### 🏷 If there's a `package` declaration (e.g. `package StackP.PracticeQ;`):
+###  If there's a `package` declaration (e.g. `package StackP.PracticeQ;`):
 
-#### ✅ Folder structure must match the package:
+####  Folder structure must match the package:
 
 For this line:
 
@@ -61,7 +61,7 @@ javac StackP/PracticeQ/FileName.java
 java StackP.PracticeQ.FileName
 ```
 
-### ⚠️ Important Notes on Packages:
+###  Important Notes on Packages:
 
 * Don’t run `java FileName` if package is declared.
 * Only one `public class` per file.
@@ -69,36 +69,37 @@ java StackP.PracticeQ.FileName
 
 ---
 
-## 📘 Topics Covered (as of now)
+##  Topics Covered (as of now)
 
 | Topic         | Description                                    |
 | ------------- | ---------------------------------------------- |
-| ✅ Patterns    | Star and number pattern problems               |
-| ✅ Recursion   | Base case & recursive case practice            |
-| ✅ Sorting     | Bubble, Selection, Insertion, etc.             |
-| ✅ Searching   | Linear and Binary search                       |
-| ✅ LinkedList | Single/Double LL, reverse, mid-node            |
-| ✅ Stack       | Stack problems with custom LL & built-in Stack |
-| ✅ Queues     | Queue, Circular Queue, Deque                   |
-| ✅ Trees      | Tree traversal, height, leaf count             |
-| ✅ BST        | Binary Search Tree problems                    |
-| ✅ Hashing    | Frequency maps, sets, hash tables              |
-| ✅ DP         | Tabulation, Memoization, 1D/2D DP              |
+|  Patterns    | Star and number pattern problems               |
+|  Recursion   | Base case & recursive case practice            |
+|  Sorting     | Bubble, Selection, Insertion, etc.             |
+|  Searching   | Linear and Binary search                       |
+|  LinkedList | Single/Double LL, reverse, mid-node            |
+|  Stack       | Stack problems with custom LL & built-in Stack |
+|  Queues     | Queue, Circular Queue, Deque                   |
+|  Trees      | Tree traversal, height, leaf count             |
+|  BST        | Binary Search Tree problems                    |
+|  Hashing    | Frequency maps, sets, hash tables              |
+|  DP         | Tabulation, Memoization, 1D/2D DP              |
+|  Graph      | BFS, DFS, Bipartite, Topological sort etc..    |
 
 
 
 ---
 
-## 🎯 Why This Repo?
+##  Why This Repo?
 
-* 🎓 Perfect for college students and freshers
-* 🧪 Helps practice for interviews and coding rounds
-* 📦 Organized with optional `package` support
-* 🧠 Clean logic and beginner-friendly style
+*  Perfect for college students and freshers
+*  Helps practice for interviews and coding rounds
+*  Organized with optional `package` support
+*  Clean logic and beginner-friendly style
 
 ---
 
-## 🛠️ How You Can Use This
+##  How You Can Use This
 
 * Clone this repo:
 
@@ -113,38 +114,38 @@ cd Java-Prep
 
 ---
 
-## 🤝 Contribute
+## Contribute
 
 Found an error or have a better solution?
 
 * Fork the repo
 * Add or fix problems
-* Create a Pull Request 🙌
+* Create a Pull Request 
 
 ---
 
-## 🙋‍♂️ Author
+##  Author
 
-**👤 Yogesh Rana**
+** Yogesh Rana**
 Computer Science Student | DSA & Java Learner
 
 ---
 
-**Star this repo** ⭐ if it helps you in your journey!
+**Star this repo**  if it helps you in your journey!
 
-> Happy Coding 💻⚡
+> Happy Coding 
 
 ````
 
 ---
 
-### ✅ Next Step:
+###  Next Step:
 1. Create a new `README.md` in your repo.
 2. Paste the content above.
 3. Commit and push:
 ```bash
 git add README.md
-git commit -m "📘 Added generalized README with run instructions and topic roadmap"
+git commit -m " Added generalized README with run instructions and topic roadmap"
 git push
 ````
 
