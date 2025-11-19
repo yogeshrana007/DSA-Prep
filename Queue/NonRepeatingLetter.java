@@ -26,6 +26,10 @@ public class NonRepeatingLetter {
         }
     }
 
+    /**
+     * There is a better solution present than this is just to learn queue
+     */
+
     public static void main(String args[]) {
         nonRepeatingLetters("aabccxb");
     }
