@@ -17,6 +17,19 @@ public class ReverseQueue {
         return q;
     }
 
+    /**
+     * more optimize & better way (Backtracking)
+     * 
+        public static void reversedQ(Queue<Integer> q) {
+            if(q.isEmpty()){
+                return;
+            }
+            int first = q.remove();
+            reversedQ(q);
+            q.add(first);
+        }
+     */
+
     public static void main(String args[]) {
         Queue<Integer> q = new LinkedList<>();
         q.add(1);
